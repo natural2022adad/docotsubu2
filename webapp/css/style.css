@@ -1,0 +1,113 @@
+ /* フォント埋め込み*/
+      @font-face {
+         font-family: 'Neon';
+         font-style: normal;
+         font-weight: 900;
+         src: url("fonts/Neon-tube-Regular.woff2") format('woff2'),
+              url("fonts/Neon-tube-Regular.woff") format('woff'),
+              url("fonts/Neon-tube-Regular.otf") format('opentype');
+      }
+
+      @font-face {
+         font-family: 'Ronde-B';
+         font-style: normal;
+         font-weight: 500;
+         src: url("fonts/NRonde-B_square.woff2") format('woff2'),
+              url("fonts/Ronde-B_square.woff") format('woff'),
+              url("fonts/Ronde-B_square.otf") format('opentype');
+      }
+      @font-face {
+         font-family: 'Moon';
+         font-style: normal;
+         font-weight: 500;
+         src: url("fonts/Moon_Light.woff2") format('woff2'),
+              url("fonts/Moon_Light.woff") format('woff'),
+              url("fonts/Moon_Light.otf") format('opentype');
+      }
+        /* フォント埋め込み*/
+        body{
+          font-family: 'Ronde-B';
+          background-image: url('jya.jpg');
+          background-position:center bottom;                     /* 画像の表示位置を指定 */
+          background-size:cover;
+          width: 100vw;
+         
+          margin: 0 auto;
+          background-color: #fff;
+          overflow: scroll;
+          text-align: center;
+        }
+
+        body img{
+          width: 100vw;
+          height: 100vh;
+          text-align: center;
+        }
+        .jyanken-stadium {
+        background-color: rgba(65, 219, 136, 0.45);
+        width : 80vw;
+        height : 50vh;
+        margin: 0 auto;
+        top: 50%;
+
+
+        }
+        h1 {
+          width : 80vw;
+          font-size     : 4vw;
+          margin: 0 auto;
+          text-align: center;
+          color: rgba(59, 42, 170, 0.68);
+        }
+        p{
+          font-size     : 4vw;  
+          text-align: center;
+		}
+		a{
+          font-size     : 4vw;  
+          text-align: center;
+		}
+        form {
+          width : 80vw;
+          font-size     : 3vw;
+          margin: 0 auto;
+          text-align: center;
+          color: rgba(59, 42, 170, 0.68);
+
+        }
+        input {
+           font-size     : 3vw;
+        }
+
+        /*.txt{
+          border-radius: 5px;
+          background-color: rgba(235, 185, 13, 0.41);
+          padding: 15px;
+          text-align: center;
+          color: white;
+          font-size: 15px;
+        }*/
+        pre {
+          font-family: 'Ronde-B';
+          text-align: center;
+        }
+        .button {
+          display       : inline-block;
+          font-size     : 3vw;        /* 文字サイズ */
+          text-align    : center;      /* 文字位置   */
+          font-family   : 'Ronde-B';
+          cursor        : pointer;     /* カーソル   */
+          padding       : 25px 25px;   /* 余白       */
+          background    : rgba(59, 42, 170, 0.68);     /* 背景色     */
+          color         : #ffffff;     /* 文字色     */
+          line-height   : 1em;         /* 1行の高さ  */
+          transition    : .3s;         /* なめらか変化 */
+          box-shadow    : 7px 7px 18px #666666;  /* 影の設定 */
+          border        : 2px solid rgba(59, 42, 170, 0.68);    /* 枠の指定 */
+        }
+        .button:hover {
+          box-shadow    : none;        /* カーソル時の影消去 */
+          color         : rgba(59, 42, 170, 0.68);     /* 背景色     */
+          background    : #ffffff;     /* 文字色     */
+        }
+        
